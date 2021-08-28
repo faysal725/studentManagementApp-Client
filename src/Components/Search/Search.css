@@ -1,0 +1,15 @@
+.search_Input{
+    height: 50px;
+    width: 70%;
+    text-align: center;
+    border-radius: 80px;
+    border: 2px solid gray;
+    font-size: larger;
+}
+.search_Submit{
+    height: 40px;
+    width: 200px;
+    border-radius: 4px;
+    color: white;
+    background-color: rgb(216, 147, 83);
+}
