@@ -8,10 +8,10 @@ const MenuBar = () => {
     
             <ul className="nav justify-content-center bg-warning pb-3 pt-3">
                 <li className="nav-item">
-                    <a className="nav-link active" href="/addStudents">Add Students</a>
+                    <a className="nav-link active" href="/home">Home Page</a>
                 </li>
                 <li className="nav-item">
-                    <a className="nav-link" href="/home">Home Page</a>
+                    <a className="nav-link " href="/addStudents">Add Students</a>
                 </li>
                 <li className="nav-item">
                     <a className="nav-link" href="#">Sort Students</a>

@@ -9,9 +9,10 @@ const { register, handleSubmit, watch, formState: { errors } } = useForm();
   const onSubmit = data =>{
       
       let name = data.name
+      // let image = data.image[0]
       let id = data.id 
       let regNo=   Math.round(Math.random(id)*1000000)
-    //   console.log(regNo)
+
       uploadInfo(name, id, regNo)
      window.location.reload()
   };
@@ -42,6 +43,10 @@ const { register, handleSubmit, watch, formState: { errors } } = useForm();
                     <br />
                     {errors.id && <span>This field is required</span>}
                     <br /><br />
+                    {/* <input type="file"  {...register("image", { required: true })} />
+                    <br />
+                    {errors.image && <span>This field is required</span>}
+                    <br /><br /> */}
                     
                     <input className="search_Submit" type="submit" value="UPLOAD" />
                     </form>

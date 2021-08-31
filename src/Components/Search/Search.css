@@ -13,3 +13,8 @@
     color: white;
     background-color: rgb(216, 147, 83);
 }
+
+.sort_button{
+    height: 50px;
+    width: 80px;
+}
